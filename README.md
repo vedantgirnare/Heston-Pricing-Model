@@ -7,6 +7,7 @@ An end-to-end quantitative pipeline for fetching live market data, pricing Europ
 ## Overview
 
 The Black-Scholes model assumes constant volatility, which empirically fails in post-1987 equity markets, producing a "Volatility Smile." The Heston model addresses this by treating variance as a Cox-Ingersoll-Ross (CIR) stochastic process.
+For a rigorous proof of the risk-neutral measure change and PDE derivation, see the included Heston_Mathematical_Foundations.pdf whitepaper.
 
 This project implements the Heston model to capture the leverage effect (correlation between asset returns and variance) and calibrates it to live market data.
 
